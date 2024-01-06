@@ -5,6 +5,7 @@ import { ProductComponent } from './component/product/product.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'products', pathMatch:'full'},
+  {path:'ekart', redirectTo:'products', pathMatch:'full'},
   {path:'products', component:ProductComponent},
   {path:'cart',component:CartComponent}
 ];
